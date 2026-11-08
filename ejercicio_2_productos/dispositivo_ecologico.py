@@ -7,7 +7,7 @@ class DispositivoEcologico: #Clase Padre
         self.id_producto = id_producto
         self.nombre = nombre
         self.precio = precio
-        self.__stock = stock #Stock es privado
+        self.stock = stock #Stock es privado y pasa por el setter para validarlo
 
     @property #Getter de stock
     def stock(self):
