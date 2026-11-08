@@ -34,6 +34,8 @@ def main():
     #Creo el archivo json con los datos de los dispositivos (Si ya esta creado borrarlo para comprobar el funcionamiento)
     ruta_archivo = "catalogo_ecotech.json"
     GestorInventario.guardar_catalogo_json(catalogo_productos, ruta_archivo)
+    print(f"Ficha tecnica: {d1.generar_ficha_tecnica()}")
+    print(f"Catalogo exportado a {ruta_archivo}")
 
 if __name__ == "__main__":
     main()

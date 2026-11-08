@@ -4,4 +4,4 @@ class StockInvalidoError(Exception): #Excepcion personalizada para el stock
         self.id_producto = id_producto
         self.nombre = nombre
         self.mensaje = f"Error en {nombre} con id {id_producto} : {mensaje}"
-        super().__init__(mensaje)
+        super().__init__(self.mensaje)
