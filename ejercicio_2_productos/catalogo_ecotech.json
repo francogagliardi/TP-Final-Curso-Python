@@ -1,0 +1,70 @@
+[
+    {
+        "id_producto": "DEV-001",
+        "nombre": "Aerogenerador Doméstico 500W",
+        "precio": "$450.00",
+        "stock": 12
+    },
+    {
+        "id_producto": "DEV-002",
+        "nombre": "Controlador de Carga MPPT 30A",
+        "precio": "$85.50",
+        "stock": 25
+    },
+    {
+        "id_producto": "DEV-003",
+        "nombre": "Inversor Onda Pura 2000W",
+        "precio": "$310.00",
+        "stock": 8
+    },
+    {
+        "id_producto": "DEV-004",
+        "nombre": "Sensor de Calidad de Aire IoT",
+        "precio": "$42.00",
+        "stock": 50
+    },
+    {
+        "id_producto": "DEV-005",
+        "nombre": "Batería Ciclo Profundo 100Ah",
+        "precio": "$210.00",
+        "stock": 15
+    },
+    {
+        "id_producto": "DEV-006",
+        "nombre": "Temporizador de Riego Solar",
+        "precio": "$35.00",
+        "stock": 30
+    },
+    {
+        "id_producto": "SOL-101",
+        "nombre": "Panel Policristalino 160W",
+        "precio": "$120.00",
+        "stock": 20,
+        "eficiencia": "17.5%",
+        "potencia_w": 160
+    },
+    {
+        "id_producto": "SOL-102",
+        "nombre": "Panel Monocristalino PERC 400W",
+        "precio": "$280.00",
+        "stock": 14,
+        "eficiencia": "21.0%",
+        "potencia_w": 400
+    },
+    {
+        "id_producto": "SOL-103",
+        "nombre": "Panel Bifacial 550W",
+        "precio": "$410.50",
+        "stock": 6,
+        "eficiencia": "22.8%",
+        "potencia_w": 550
+    },
+    {
+        "id_producto": "SOL-104",
+        "nombre": "Panel Flexible Portátil 100W",
+        "precio": "$95.00",
+        "stock": 18,
+        "eficiencia": "19.2%",
+        "potencia_w": 100
+    }
+]
