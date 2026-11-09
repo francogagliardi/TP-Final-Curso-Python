@@ -4,5 +4,6 @@ from sustentabilidad.views import vista_panel_sustentabilidad
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('panel/', vista_panel_sustentabilidad), # <-- Conectas la ruta /panel a tu función
+    path('', vista_panel_sustentabilidad), #La raiz abre el panel, asi funciona la URL que muestra Django
+    path('panel/', vista_panel_sustentabilidad), #Ruta directa al panel
 ]
