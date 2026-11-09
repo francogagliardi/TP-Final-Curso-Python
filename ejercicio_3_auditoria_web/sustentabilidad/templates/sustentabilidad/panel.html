@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel EcoTech</title>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+    
+    <h1>Panel de Auditoría - EcoTech</h1>
+    <hr>
+    
+    <!-- Aquí Django inyecta la variable numérica -->
+    <h3>Huella de Carbono Global: <span style="color: red;">{{ total_emisiones }} kg CO2</span></h3>
+    
+    <h3>Plantas con Máximo Consumo:</h3>
+    <ul>
+        <!-- Bucle de Django para recorrer tu lista de plantas -->
+        {% for planta in plantas_alerta %}
+            <li><strong>{{ planta }}</strong></li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
